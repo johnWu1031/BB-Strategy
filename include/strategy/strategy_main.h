@@ -55,6 +55,7 @@ public:
 	void Draw();
 	void MoveContinuous(int );
 	void AreaSizeMeasure();
+	
 	//LayUp
 	void UPbasket();
 	void SlamDunk();
