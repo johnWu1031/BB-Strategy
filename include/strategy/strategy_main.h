@@ -58,7 +58,6 @@ public:
 	//LayUp
 	void UPbasket();
 	void SlamDunk();
-
 	typedef enum{
 		//BB
 		//Catch Ball
