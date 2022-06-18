@@ -20,22 +20,21 @@ class LoadParameter
 {
 public:
     LoadParameter() 
-	{
-		tool = ToolInstance::getInstance();
-	};
-	~LoadParameter()
-	{
-		ToolInstance::deleteInstance();
-	};
+    {
+        tool = ToolInstance::getInstance();
+    };
+    ~LoadParameter()
+    {
+        ToolInstance::deleteInstance();
+    };
 
     ToolInstance *tool;
 
     float readvalue(fstream &fin, string title,int mode);
-	void initparameterpath();
+    void initparameterpath();
     void LoadParameters();
     void TestParameters();
-
-	string parameter_path = "N";
+    string parameter_path = "N";
 
 };
 
