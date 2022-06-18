@@ -64,18 +64,18 @@ public:
 		//BB
 		//Catch Ball
 		BB_WaistDown		= 118,
-		BB_WaistCatch           = 1110,
-		BB_WaistUp              = 1111,
-		BB_WaistUpFeedBack      = 1112,
+		BB_WaistCatch       = 1110,
+		BB_WaistUp          = 1111,
+		BB_WaistUpFeedBack  = 1112,
 		//Shooting
 		BB_RaiseHand		= 1115,
 		BB_ShootingBall		= 1116,
-		BB_KeepBall		= 1117,
+		BB_KeepBall		    = 1117,
 		//LayUp
-		BB_UpHand               = 1140,
-		BB_SlamDunk             = 1150,
+		BB_UpHand           = 1140,
+		BB_SlamDunk         = 1150,
 		//Stand
-		BB_StandFix             = 1218,
+		BB_StandFix         = 1218,
 
 		Robot_StandUp		= 29	
 		
