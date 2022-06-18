@@ -103,9 +103,9 @@ void basketballinfo::Init()
     BasketInfo->ErrorHorizontalAngle = 0.0;
     BasketInfo->ErrorVerticalAngle = 0.0;
 
- 	//Common
- 	BasketInfo->RobotPosition = BigGOAhead;
- 	BasketInfo->Robot_State = Initialization;
+    //Common
+    BasketInfo->RobotPosition = BigGOAhead;
+    BasketInfo->Robot_State = Initialization;
     BasketInfo->Distancenew = 0.0;
     BasketInfo->timeuse = 0
 }
