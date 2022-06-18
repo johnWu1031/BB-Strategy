@@ -48,7 +48,7 @@ enum
     Trace_Target,
     Goto_Target,
     UP_Basket,
-	SlamDunk_Basket,
+    SlamDunk_Basket,
     End
 };
 
@@ -65,9 +65,9 @@ enum
 {
     ContinuousStand,
     ContinuousStay,
-	ContinuousTurnRight,
+    ContinuousTurnRight,
     ContinuousSmallTurnRight,
-	ContinuousTurnLeft,
+    ContinuousTurnLeft,
     ContinuousSmallTurnLeft,
     ContinuousForward,
     ContinuousSmallForward,
